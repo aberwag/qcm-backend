@@ -5,6 +5,7 @@
   "private": true,
   "main": "app.js",
   "scripts": {
+    "dev": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/aberwag/qcm-backend/issues"
   },
-  "homepage": "https://github.com/aberwag/qcm-backend#readme"
+  "homepage": "https://github.com/aberwag/qcm-backend#readme",
+  "devDependencies": {
+    "cli-banner": "git+https://github.com/aberwag/cli-banner.git",
+    "nodemon": "^1.17.1"
+  }
 }
